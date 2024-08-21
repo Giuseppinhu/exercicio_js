@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+} 
+
+.container {
+    max-width: 950px;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px 0 ;
+}
+
+form {
+        display: flex;
+        flex-direction: column;
+}
+
+form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+form button {
+    padding: 8px;
+}
+
+h2 {
+    font-size: 25px;
+    padding: 50px 0 10px 0;
+    text-decoration-style: solid;
+}
+
+ul {
+    font-size: 20px;
+    text-transform: uppercase;
+    list-style: square;
+}
+
+.completed {
+    text-decoration: line-through;
+}  
